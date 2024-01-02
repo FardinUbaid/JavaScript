@@ -1,0 +1,27 @@
+#infoContainer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: hsl(271, 76%, 53%);
+}
+#resultLbl{
+    display: block;
+    text-align: center;
+    font-size: 6em;
+    font-family: cursive;
+    color: deepskyblue;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    background-color:  hsl(268, 43%, 49%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: beige;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: darkorchid;
+}
