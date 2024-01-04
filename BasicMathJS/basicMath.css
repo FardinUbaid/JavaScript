@@ -1,0 +1,64 @@
+#infoContainer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: hsl(271, 76%, 53%);
+}
+.boxLbl{
+    color: hsl(271, 76%, 53%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    background-color: hsl(170, 52%, 63%);
+    border: none;
+    border-style:groove;
+    border-radius: 5px;
+    width: 250px; 
+    height: 30px;
+    color: hsl(316, 32%, 9%);
+    font-size: 2em;
+}
+input:hover{
+    background-color: antiquewhite;
+}
+#inputs {
+    margin: 10% auto; 
+    width: 20%; 
+}
+
+#inputs table {
+    width: 100%; 
+}
+
+#inputs table tr td {
+    text-align: center;
+}
+#resultLbl{
+    display: block;
+    text-align: center;
+    font-size: 6em;
+    font-family: cursive;
+    color: deepskyblue;
+}
+#statusLbl{
+    display: block;
+    text-align: center;
+    font-size: 2cqb;
+    font-family: cursive;
+    color: rgb(225, 45, 45);
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    font-size: 2em;
+    background-color:  hsl(180, 82%, 50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: beige;
+    padding: 3px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: hsl(180, 53%, 58%);
+}
