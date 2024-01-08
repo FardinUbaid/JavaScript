@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: conic-gradient(from 0deg, #ff55a1, #a64dff, #4da6ff, #00e5ff, #4da6ff, #a64dff, #ff55a1);
+    margin: 0;
+    color: #ecf0f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#GTN {
+    width: 50%;
+    background: #2d3a4b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(45, 58, 75, 0.5);
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #384551;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #546e7a;
+    border-radius: 5px;
+    transition: box-shadow 0.3s, background 0.3s;
+    font-family: 'Pacifico', cursive;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(45, 58, 75, 0.8);
+    background: linear-gradient(to right, #ff55a1, #a64dff, #4da6ff, #00e5ff, #4da6ff, #a64dff, #ff55a1);
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+#Game {
+    text-align: center;
+    background: #191b28;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#instruction {
+    color: #3498db;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, #ff55a1, #a64dff, #4da6ff, #00e5ff, #4da6ff, #a64dff, #ff55a1);
+    margin: 20px 0;
+}
+
+#setlimit {
+    font-family: 'Pacifico', cursive; 
+    font-size: 18px;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #ff55a1, #a64dff, #4da6ff, #00e5ff, #4da6ff, #a64dff, #ff55a1);; /* Set a background color for the button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease; 
+}
+
+#setlimit:hover {
+    background: linear-gradient(to right,#4da6ff, #ff55a1, #54b4e0, #ff55a1, #4da6ff); 
+}
+#guessBtn {
+    font-family: 'Pacifico', cursive; 
+    font-size: 18px;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #ff55a1, #a64dff, #4da6ff, #00e5ff, #4da6ff, #a64dff, #ff55a1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease; 
+}
+
+#guessBtn:hover {
+    background: linear-gradient(to right,#4da6ff, #ff55a1, #54b4e0, #ff55a1, #4da6ff);
+}

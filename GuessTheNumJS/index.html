@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" type="text/css" href="GuessTheNumJS.css">
+</head>
+<body>
+    <div id="GTN">
+        <fieldset>
+            <label for="MaxVal">Maximum</label>
+            <input id="MaxVal">
+            <label for="MinVal">Minimum</label>
+            <input id="MinVal">
+            <hr>
+            <button id="setlimit">Initiate Game</button>
+        </fieldset>
+        <div id="Game">
+            <fieldset>
+                <h4><tt id="instruction">Set the Guessing Limit and start the game.</tt></h4>
+                <hr>
+                <input id="guess">
+                <button id="guessBtn">guess</button>
+                <hr>
+                <h4><tt id="result"></tt></h4>
+                <h4><tt id="attempts"></tt></h4>
+            </fieldset>
+        </div>
+    </div>
+    <script src="GuessTheNumJS.js"></script>
+</body>
+</html>
