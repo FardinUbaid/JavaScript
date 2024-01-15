@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(161, 71%, 66%);
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: hsl(204, 65%, 50%);
+}
+form{
+    background-color: hsl(161, 71%, 60%);
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 25px;
+    border: 2px solid hsla(164, 52%, 76%, 0.285);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+}
+input{
+    text-align: center;
+    font-size: 1.1em;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    color:hsl(161, 71%, 30%);
+}
+
+tt{
+    color: white;
+    font-size: 2em;
+}
+#toCelcious{
+    margin:15px;
+}
+#toFahrenheit{
+    margin:15px;
+}
+button{
+    background-color: hsl(208, 72%, 57%);
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+button:hover{
+    background-color: hsl(208, 72%, 47%);
+}
+
+fieldset{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: hsl(166, 70%, 76%);
+}
